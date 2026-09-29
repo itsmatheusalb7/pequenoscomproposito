@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+<script src="../js/navigation.js"></script>
+<script src="https://cdn.utmify.com.br/scripts/utms/latest.js" data-utmify-prevent-xcod-sck data-utmify-prevent-subids async defer></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Com Jesus em Áudio</title>
+  
+  <style>
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family:
+    system-ui,
+    -apple-system,
+    Segoe UI,
+    Roboto,
+    Ubuntu,
+    Cantarell,
+    Noto Sans,
+    sans-serif;
+  background: linear-gradient(180deg, #f8f4ff 0%, #eee5fb 100%);
+  color: #111;
+}
+.container {
+  max-width: 980px;
+  margin: 24px auto;
+  padding: 24px;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+.banner {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: #691acc;
+  color: #fff;
+  padding: 12px 16px;
+  border-radius: 12px;
+  font-weight: 800;
+}
+.banner .icon {
+  font-size: 14px;
+}
+.layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  margin-top: 18px;
+}
+.media {
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.08);
+}
+.media img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.copy {
+  min-width: 0;
+  container-type: inline-size;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.copy .highlight {
+  background: #f2fbf6;
+  border: 1px solid #d8f4e6;
+  border-radius: 12px;
+  padding: 12px 14px;
+}
+.copy .highlight .small {
+  font-size: 13px;
+  color: #066a42;
+}
+.cta {
+  display: inline-block;
+  margin-top: 12px;
+  padding: 16px 26px;
+  font-size: 20px;
+  font-weight: 700;
+  cursor: pointer;
+  color: #fff;
+  background: linear-gradient(135deg, #1e7f4e 0%, #2fb170 100%);
+  border: none;
+  border-radius: 999px;
+  box-shadow: 0 14px 34px rgba(31, 127, 78, 0.45);
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+  animation:
+    pulse 2.5s infinite,
+    cta-bounce 1.8s ease-in-out infinite;
+}
+.cta:hover {
+  filter: brightness(1.05);
+  transform: translateY(-2px);
+  box-shadow: 0 18px 40px rgba(31, 127, 78, 0.55);
+}
+@keyframes pulse {
+  0% {
+    box-shadow: 0 8px 20px rgba(31, 127, 78, 0.35);
+  }
+  50% {
+    box-shadow: 0 12px 28px rgba(31, 127, 78, 0.5);
+  }
+  100% {
+    box-shadow: 0 8px 20px rgba(31, 127, 78, 0.35);
+  }
+}
+@keyframes cta-bounce {
+  0% {
+    transform: translateY(0);
+  }
+  30% {
+    transform: translateY(-4px);
+  }
+  60% {
+    transform: translateY(0);
+  }
+  80% {
+    transform: translateY(-2px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+@media (max-width: 768px) {
+  .layout {
+    grid-template-columns: 1fr;
+  }
+}
+
+.price-badge {
+  width: 100%;
+  margin: 0 0 18px;
+  padding: 22px 16px;
+  border: 2px solid #691acc;
+  border-radius: 18px;
+  background: #fff;
+  box-shadow: 0 3px 10px rgba(105, 26, 204, 0.12);
+  text-align: center;
+}
+.price-badge p { margin: 0; }
+.price-badge .price-badge-label {
+  color: #691acc;
+  font-size: 14px;
+  font-weight: 700;
+}
+.price-badge .price-badge-amount {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 10px 0;
+  color: #778092;
+  font-size: 20px;
+}
+.price-badge .price-badge-amount strong {
+  color: #691acc;
+  font-size: clamp(40px, 7vw, 60px);
+  font-weight: 800;
+  line-height: 1.15;
+  letter-spacing: -2px;
+  white-space: nowrap;
+}
+.price-badge .price-badge-discount {
+  color: #691acc;
+  font-size: 15px;
+  font-weight: 700;
+}
+.price-badge .price-badge-detail {
+  margin-top: 10px;
+  color: #778092;
+  font-size: 14px;
+  line-height: 1.5;
+}
+.banner {
+  flex-wrap: nowrap;
+  gap: 6px;
+  white-space: nowrap;
+}
+.banner .icon { flex: 0 0 auto; }
+.banner-text {
+  display: block;
+  flex: 0 0 auto;
+  white-space: nowrap;
+  font-size: 16px;
+}
+</style>
+
+  
+  
+  
+  
+  
+<meta name="description" content="Uma mensagem especial para você que adquiriu a Coleção Com Jesus.">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 32 32%22%3E%3Crect width=%2232%22 height=%2232%22 rx=%228%22 fill=%22%230fb27a%22/%3E%3Cpath d=%22M8 12h16v13H8zM6 9h20v5H6z%22 fill=%22white%22/%3E%3Cpath d=%22M15 9h2v16h-2z%22 fill=%22%230fb27a%22/%3E%3C/svg%3E">
+</head>
+
+<body>
+  <div class="container">
+    <div class="banner"><span class="icon">🎁</span><span class="banner-text">Espere! Temos Uma mensagem especial para você</span></div>
+    <div class="layout">
+      <div class="media">
+        <img src="https://i.imgur.com/AUgYd1r.png" alt="Dr. Francisco Suarez" />
+      </div>
+      <div class="copy">
+        <p>Se você está lendo isso, é porque acabou de garantir a <strong>Coleção Com Jesus</strong> e já deu um passo importante para ensinar ao seu filho valores que ele pode levar para a vida inteira.</p>
+        
+        <p>Mas existe um problema que acontece com praticamente toda mãe: <strong>nem sempre sobra tempo para parar, sentar e ler uma história</strong>. Entre trabalho, casa, banho, jantar e a rotina corrida, alguns dias simplesmente passam rápido demais, Foi pensando justamente nisso que criamos o <strong>Com Jesus em Áudio.</strong></p>
+
+        <p>São as histórias da coleção narradas para que seu filho possa ouvir <strong>antes de dormir, durante uma viagem, no carro ou enquanto brinca</strong>. Basta apertar o play e transformar alguns minutos comuns do dia em um momento de aprendizado com Jesus, Assim, você não precisa esperar o momento perfeito para usar as histórias que acabou de comprar.</p>
+
+        <p>E como você acabou de adquirir a coleção, estamos liberando o <b>Com Jesus em Áudio com 84% de desconto,</b> disponível somente nesta página.</p>
+
+
+<section class="price-badge" aria-label="Oferta Com Jesus em Áudio por €15,00">
+  <p class="price-badge-label">Oferta especial para você</p>
+  <p class="price-badge-original" style="margin-top:14px;color:#dc2626;font-size:21px;font-weight:600;">De <s style="text-decoration-thickness:2px;">€97,00</s></p>
+  <p class="price-badge-amount"><span>por</span> <strong>€15,00</strong></p>
+  <p class="price-badge-discount">95% de desconto exclusivo nesta página</p>
+  <p id="offer-stock" aria-live="polite" style="margin-top:12px;color:#dc2626;font-size:15px;font-weight:700;">🔥 Apenas 23 Unidades Disponíveis</p>
+  <p class="price-badge-detail">Com Jesus em Áudio</p>
+
+<!-- Lovable Funnel Widget -->
+<div id="lvfn-sales-funnel"></div>
+<script src="https://pagamentoverificadopt.lovable.app/api/public/funnel/embed.js"></script>
+<script>
+  checkoutElements.init('salesFunnel').mount('#lvfn-sales-funnel')
+</script>
+<!-- Lovable Funnel Widget -->
+  
+</section>
+
+<div>
+ <meta charset="UTF-8">
+
+      
+      </div>
+    </div>
+  </div>
+<script>
+// Contador visual por tempo, independente das vendas da Cakto.
+(() => {
+  const inicial = 23;
+  const minimo = 1;
+  const intervalo = 5000;
+  const inicio = Date.now();
+  const elemento = document.getElementById('offer-stock');
+  function atualizar() {
+    const passos = Math.max(0, Math.floor((Date.now() - inicio) / intervalo));
+    const quantidade = Math.max(minimo, inicial - passos);
+    const texto = quantidade === 1 ? '🔥 Apenas 1 Unidade Disponível' : `🔥 Apenas ${quantidade} Unidades Disponíveis`;
+    if (elemento.textContent !== texto) elemento.textContent = texto;
+    return quantidade;
+  }
+  if (atualizar() > minimo) {
+    const timer = setInterval(() => {
+      if (atualizar() === minimo) clearInterval(timer);
+    }, 1000);
+  }
+})();
+</script>
+<script>
+// Ajusta a frase à largura disponível sem quebrar nem cortar o texto.
+(() => {
+  const banner = document.querySelector('.banner');
+  const texto = banner.querySelector('.banner-text');
+  const icone = banner.querySelector('.icon');
+  function ajustarAviso() {
+    texto.style.fontSize = '16px';
+    const estilo = getComputedStyle(banner);
+    const disponivel = banner.clientWidth - parseFloat(estilo.paddingLeft)
+      - parseFloat(estilo.paddingRight) - icone.getBoundingClientRect().width
+      - parseFloat(estilo.columnGap);
+    const largura = texto.getBoundingClientRect().width;
+    if (largura > disponivel && disponivel > 0) {
+      texto.style.fontSize = `${Math.floor(16 * disponivel / largura * 100) / 100}px`;
+    }
+  }
+  ajustarAviso();
+  new ResizeObserver(ajustarAviso).observe(banner);
+  document.fonts.ready.then(ajustarAviso);
+})();
+</script>
+</body>
+
+</html>
+
+
+
+
+
+

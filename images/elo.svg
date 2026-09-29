@@ -1,0 +1,10 @@
+<svg viewBox="0 0 50 24" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Elo">
+  <defs>
+    <linearGradient id="eloGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FFCB05"/>
+      <stop offset=".55" stop-color="#EF4123"/>
+      <stop offset="1" stop-color="#00A4E0"/>
+    </linearGradient>
+  </defs>
+  <text x="25" y="18" font-family="Arial, Helvetica, sans-serif" font-weight="800" font-size="18" fill="url(#eloGrad)" text-anchor="middle">elo</text>
+</svg>

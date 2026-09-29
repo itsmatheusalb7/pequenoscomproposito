@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+<script src="../js/navigation.js"></script>
+<script src="https://cdn.utmify.com.br/scripts/utms/latest.js" data-utmify-prevent-xcod-sck data-utmify-prevent-subids async defer></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f1f7ff">
+  <meta name="description" content="Acesse a Série Com Jesus - 11 Livros Digitais e os materiais da sua área de membros.">
+  <title>Obrigado! | Série Com Jesus</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='9' fill='%23691acc'/%3E%3Cpath d='M16 7v18M9 13h14' stroke='white' stroke-width='3' stroke-linecap='round'/%3E%3C/svg%3E">
+
+  <script>
+    /* ================================================================
+       EDITE SEUS LINKS AQUI — não é necessário alterar o restante da página.
+
+       IMAGENS: substitua os quatro links de exemplo pelas imagens finais.
+       Tamanho sugerido: 1080 x 1080 px. As imagens são exibidas inteiras.
+
+       ACESSOS: troque os links https://example.com abaixo pelos seus links finais.
+       Os botões sem link mostram uma orientação, sem navegar para páginas falsas.
+
+       REEMBOLSO: confirmação visual local após a validação do formulário.
+       Este arquivo não envia nem armazena pedidos e não executa reembolsos.
+       O atendimento e o processamento financeiro precisam ocorrer fora da página.
+       ================================================================ */
+    const CONFIG = {
+      imagens: {
+        livros: 'https://i.imgur.com/TV3CvGc.png',
+        carater: 'https://i.imgur.com/Abl40p0.png',
+        audiobooks: 'https://i.imgur.com/XaKyvjR.png',
+        brinquedos: 'https://i.imgur.com/1WT6ona.jpeg'
+      },
+      acessos: {
+        livros: 'https://drive.google.com/drive/folders/11z23VsptXUe_LrVBYjqzNZLtFsF25dNs?usp=sharing',     // Cole o link dos 11 livros digitais.
+        carater: 'https://drive.google.com/drive/folders/1UY3vkzWm2i6KA5TUlAZlDIISJgsuM6mV?usp=sharing',    // Cole o link do Kit Caráter.
+        brinquedos: 'https://drive.google.com/drive/folders/1S4dOjh990G55kw1k5Mg5snDrCIXI4zwN?usp=sharing'  // Cole o link dos brinquedos bíblicos.
+      }
+    };
+  </script>
+
+  <style>
+    :root{color-scheme:light;--fundo:#f1f7ff;--roxo:#691acc;--texto:#20233f;--linha:#dce3f1;--branco:#fff}
+    *{box-sizing:border-box}
+    body{margin:0;background:var(--fundo);color:var(--texto);font-family:'Segoe UI',Arial,Helvetica,sans-serif;line-height:1.5;-webkit-font-smoothing:antialiased;isolation:isolate}
+    body::before{content:'';position:fixed;inset:0;z-index:-1;pointer-events:none;background:radial-gradient(ellipse at 6% 15%,#bba0fa50,transparent 43%),radial-gradient(ellipse at 96% 48%,#a8d5ff75,transparent 46%),radial-gradient(ellipse at 22% 94%,#d0b3ff50,transparent 40%)}
+    ::selection{background:#691acc25;color:var(--texto)}
+    button,input,textarea{font:inherit}button,a{-webkit-tap-highlight-color:transparent}button{cursor:pointer}
+    a:focus-visible,button:focus-visible{outline:3px solid var(--roxo);outline-offset:5px}
+    [hidden]{display:none!important}
+    .wrap{width:min(700px,calc(100% - 40px));margin-inline:auto}
+    header{text-align:center;padding:34px 0 0}
+    .brand{display:inline-block;padding:12px 25px 13px;color:var(--roxo);font-weight:800;letter-spacing:-.8px;font-size:23px;background:#ffffff75;border:1px solid #fff;border-radius:22px;box-shadow:0 8px 30px #49328708,inset 0 1px 0 #fff;-webkit-backdrop-filter:blur(18px);backdrop-filter:blur(18px)}
+    .brand small{display:block;color:var(--texto);font-size:12px;letter-spacing:1.5px;font-weight:500;margin-top:1px}
+    .intro{text-align:center;padding:31px 0 30px}
+    .check{display:grid;place-items:center;width:44px;height:44px;background:linear-gradient(145deg,#8a46e4,var(--roxo));color:#fff;border:1px solid #ffffff80;border-radius:16px;margin:0 auto 18px;box-shadow:0 6px 20px #691acc25,inset 0 1px 0 #ffffff70;outline:6px solid #ffffff70}
+    .check svg{width:22px;height:22px}
+    h1{font-size:clamp(32px,6vw,46px);letter-spacing:-1.7px;line-height:1.12;margin:0 0 15px;font-weight:800}
+    h1 span{color:var(--roxo)}
+    .intro p{font-size:16px;max-width:445px;margin:0 auto;line-height:1.75}
+    .materials{display:grid;gap:28px}
+    .product{background:linear-gradient(130deg,#ffffffb8,#ffffff58);border:1px solid #ffffffef;border-radius:27px;padding:15px;box-shadow:0 14px 45px #4932870d,0 3px 8px #49328704,inset 0 1px 0 #fff,inset 0 -1px 0 #ffffff65;-webkit-backdrop-filter:blur(24px) saturate(130%);backdrop-filter:blur(24px) saturate(130%);transition:box-shadow .22s,border-color .22s}
+    .banner{position:relative;aspect-ratio:1/1;border-radius:17px;overflow:hidden;background:linear-gradient(125deg,#f2eaff,#e3edff);display:grid;place-items:center;box-shadow:0 0 0 1px #ffffffa0,inset 0 1px 0 #fff}
+    .banner::after{content:'';position:absolute;inset:0;pointer-events:none;border-radius:inherit;border:1px solid #ffffff75;background:linear-gradient(135deg,#ffffff2b,transparent 52%)}
+    .banner img{width:100%;height:100%;position:absolute;inset:0;object-fit:contain;display:block}
+    .banner-fallback{font-size:clamp(23px,4.5vw,34px);font-weight:800;color:var(--roxo);text-align:center;line-height:1.25;padding:30px;max-width:450px}
+    .product-info{padding:21px 9px 9px}
+    .product h2{font-size:20px;letter-spacing:-.55px;line-height:1.35;margin:0 0 18px}
+    .tag{display:table;font-size:12px;line-height:1.5;letter-spacing:1.4px;font-weight:700;color:var(--roxo);margin-bottom:10px;padding:4px 9px;background:#691acc08;border:1px solid #691acc13;border-radius:6px}
+    .access{display:flex;align-items:center;justify-content:center;gap:10px;border:1px solid #ffffff50;border-radius:13px;min-height:54px;width:100%;padding:14px 18px;background:linear-gradient(115deg,#782bd9,var(--roxo) 68%,#5b19b5);color:white;text-decoration:none;font-size:16px;font-weight:650;line-height:1.4;box-shadow:0 5px 15px #691acc26,inset 0 1px 0 #ffffff40;transition:box-shadow .18s,transform .18s,filter .18s}
+    .access:hover{filter:brightness(1.07);transform:translateY(-2px);box-shadow:0 9px 22px #691acc30,inset 0 1px 0 #ffffff40}
+    .access:active{transform:translateY(0)}
+    .audio-player{padding:17px 15px 12px;border:1px solid #ffffffd9;border-radius:20px 20px 20px 5px;background:linear-gradient(125deg,#ffffffd9,#eee3ffb0);box-shadow:0 5px 18px #691acc10,inset 0 1px 0 #fff}
+    .voice-row{display:flex;align-items:center;gap:13px}
+    .voice-play{display:grid;place-items:center;flex:0 0 48px;width:48px;height:48px;border:0;border-radius:50%;background:var(--roxo);color:#fff;box-shadow:0 4px 12px #691acc26}
+    .voice-play svg{width:23px;height:23px;fill:currentColor}
+    .voice-play:disabled{opacity:.65;cursor:wait}
+    .voice-track{flex:1;min-width:0}
+    .voice-wave{height:42px;position:relative;border-radius:5px;--progress:0%}
+    .voice-bars{height:100%;display:flex;align-items:center;gap:3px;overflow:hidden}
+    .voice-bars span{flex:1;min-width:1px;max-width:6px;border-radius:8px;background:#c5b2de}
+    .voice-bars span.played{background:var(--roxo)}
+    .voice-wave::after{content:'';position:absolute;top:50%;left:clamp(5px,var(--progress),calc(100% - 5px));width:10px;height:10px;border-radius:50%;background:var(--roxo);transform:translate(-50%,-50%);pointer-events:none;box-shadow:0 0 0 3px #ffffffb0}
+    .voice-wave input[type=range]{position:absolute;inset:0;width:100%;height:100%;margin:0;padding:0;opacity:0;cursor:pointer;z-index:1}
+    .voice-wave:focus-within{outline:2px solid var(--roxo);outline-offset:4px}
+    .voice-time{display:flex;justify-content:space-between;gap:10px;font-size:12px;font-variant-numeric:tabular-nums;color:var(--texto);margin-top:3px}
+    .voice-speed{flex-shrink:0;min-width:44px;min-height:44px;border:1px solid #691acc15;background:#ffffffa0;color:var(--roxo);border-radius:22px;font-size:13px;font-weight:700;padding:7px}
+    .voice-status{font-size:12px;color:var(--texto);margin:9px 0 0 61px;min-height:18px}
+    @media(max-width:380px){.audio-player{padding:13px 10px}.voice-row{gap:9px}.voice-play{flex-basis:42px;width:42px;height:42px}.voice-bars{gap:2px}.voice-status{margin-left:51px}}
+    .access svg{width:20px;height:20px;flex-shrink:0}
+    .divider{display:flex;align-items:center;gap:20px;color:var(--roxo);font-size:12px;letter-spacing:2px;font-weight:700;text-align:center;margin:35px 12px 28px}
+    .divider::before,.divider::after{content:'';height:1px;background:linear-gradient(90deg,transparent,#691acc30);flex:1}
+    .divider::after{transform:rotate(180deg)}
+    .refund{text-align:center;margin:34px 0 24px;padding:27px 20px;background:#ffffff50;border:1px solid #ffffffcc;border-radius:24px;box-shadow:0 8px 28px #49328706,inset 0 1px 0 #fff;-webkit-backdrop-filter:blur(18px);backdrop-filter:blur(18px)}
+    .refund h2{font-size:18px;letter-spacing:-.3px;margin:0 0 13px}
+    .secondary{background:#ffffff80;border:1px solid #691acc30;border-radius:11px;color:var(--roxo);padding:11px 23px;font-size:14px;font-weight:650;min-height:44px;box-shadow:inset 0 1px 0 #fff;transition:background .18s}
+    .secondary:hover{background:#fff}
+    footer{text-align:center;font-size:12px;padding:0 0 28px;color:var(--texto)}
+    dialog{width:min(470px,calc(100% - 32px));max-height:calc(100% - 40px);border:1px solid #fff;border-radius:27px;padding:29px;background:linear-gradient(135deg,#fffffff2,#f1f7ffe8);color:var(--texto);box-shadow:0 24px 90px #20233f30,inset 0 1px 0 #fff;-webkit-backdrop-filter:blur(30px);backdrop-filter:blur(30px)}
+    dialog::backdrop{background:#25203f55;-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px)}
+    .dialog-top{display:flex;align-items:flex-start;justify-content:space-between;gap:15px;margin-bottom:9px}
+    .dialog-top h2{font-size:24px;line-height:1.2;letter-spacing:-.7px;margin:3px 0;color:var(--roxo)}
+    .close{display:grid;place-items:center;flex-shrink:0;width:36px;height:36px;background:#ffffffb0;border:1px solid #fff;border-radius:50%;font-size:25px;line-height:1;color:var(--texto);box-shadow:0 2px 8px #20233f08}
+    .form-intro{font-size:14px;margin:0 0 22px;line-height:1.6}
+    label{display:block;font-size:14px;font-weight:700;margin:15px 0 6px}
+    label span{font-weight:400;font-size:12px}
+    input,textarea{width:100%;border:1px solid #bdc5da;border-radius:11px;padding:11px 12px;font-size:16px;background:#ffffffb8;color:var(--texto);box-shadow:inset 0 2px 5px #20233f03}
+    textarea{resize:vertical;min-height:92px}
+    input:focus,textarea:focus{outline:2px solid var(--roxo);outline-offset:1px;border-color:var(--roxo)}
+    .send{margin-top:20px}
+    .send:disabled{cursor:wait;opacity:.7;transform:none}
+    .privacy{font-size:12px;line-height:1.5;margin:12px 0 0}
+    .error{font-size:14px;line-height:1.5;border-left:3px solid #b9213b;padding:10px 12px;background:#fff2f4;margin:15px 0 0}
+    .refund-loading{text-align:center;padding:38px 0 32px}
+    .refund-loading p{font-size:17px;font-weight:600;margin:20px 0 0}
+    .spinner{display:block;width:48px;height:48px;margin:auto;border:4px solid #691acc20;border-top-color:var(--roxo);border-radius:50%;animation:refund-spin .8s linear infinite}
+    @keyframes refund-spin{to{transform:rotate(360deg)}}
+    @media(prefers-reduced-motion:reduce){.spinner{animation:none}}
+    .success{text-align:center;padding:22px 0 3px}
+    .success h3{font-size:23px;color:var(--roxo);letter-spacing:-.5px;margin:0 0 12px}
+    .success p{font-size:16px;line-height:1.65;margin:0 0 23px}
+    .notice-text{font-size:16px;line-height:1.65;margin:16px 0 22px}
+    @media(hover:hover){.product:hover{border-color:#fff;box-shadow:0 18px 50px #49328716,0 3px 8px #49328704,inset 0 1px 0 #fff}}
+    @media(max-width:480px){header{padding-top:23px}.brand{padding:10px 19px;border-radius:19px}.brand small{font-size:12px;letter-spacing:1px}.intro{padding:28px 0}.wrap{width:calc(100% - 28px)}h1{font-size:34px;letter-spacing:-1.3px}.product{padding:10px;border-radius:22px}.banner{border-radius:13px}.product-info{padding:17px 6px 7px}.product h2{font-size:18px}.materials{gap:22px}.refund{margin-top:28px;padding:23px 15px}dialog{padding:23px;border-radius:23px}.banner-fallback{font-size:24px;padding:15px}}
+    @supports not ((backdrop-filter:blur(1px)) or (-webkit-backdrop-filter:blur(1px))){.product,.brand,.refund{background:#f8faff}dialog{background:#f8faff}}
+    @media(prefers-reduced-transparency:reduce){.product,.brand,.refund,dialog{background:#f8faff;-webkit-backdrop-filter:none;backdrop-filter:none}}
+    @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}}
+  </style>
+</head>
+<body>
+  <!-- Página de pós-compra: disponibilize após a aprovação do pagamento. -->
+  <header class="wrap"><div class="brand"><small>PEQUENOS NA FÉ, GRANDES NO AMOR</small></div></header>
+  <main class="wrap">
+    <section class="intro" aria-labelledby="titulo">
+      <div class="check" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12 4 4L19 6"/></svg></div>
+      <h1>Obrigado pela <span>sua compra!</span></h1>
+      <p>Que alegria ter você aqui! Acesse seus materiais abaixo e compartilhe momentos especiais com Jesus.</p>
+    </section>
+    <article class="product">
+      <div class="banner"><span class="banner-fallback" aria-hidden="true">Série Com Jesus<br>11 Livros Digitais</span><img data-imagem="livros" alt="Banner Série Com Jesus — 11 Livros Digitais" width="1080" height="1080"></div>
+      <div class="product-info"><span class="tag">SUA COLEÇÃO</span><h2>Série Com Jesus - 11 Livros Digitais</h2><a class="access" data-acesso="livros" href="#"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12m-5-5 5 5 5-5M4 17v4h16v-4"/></svg>Baixar meus 11 livros digitais</a></div>
+    </article>
+    <div class="divider">ÁREA DE MEMBROS</div>
+    <section class="materials" aria-label="Materiais da área de membros">
+      <article class="product">
+        <div class="banner"><span class="banner-fallback" aria-hidden="true">Kit Caráter<br>As 11 Virtudes</span><img data-imagem="carater" alt="Banner Kit Caráter: As 11 Virtudes" width="1080" height="1080" loading="lazy"></div>
+        <div class="product-info"><h2>Kit Caráter: As 11 Virtudes</h2><a class="access" data-acesso="carater" href="#">Acessar Kit Caráter <span aria-hidden="true">→</span></a></div>
+      </article>
+      <article class="product">
+        <div class="banner"><span class="banner-fallback" aria-hidden="true">Com Jesus<br>Audiobooks</span><img data-imagem="audiobooks" alt="Banner Com Jesus - Audiobooks" width="1080" height="1080" loading="lazy"></div>
+        <div class="product-info"><h2 id="audiobook-title">Com Jesus - Audiobooks</h2>
+          <div class="audio-player" role="group" aria-labelledby="audiobook-title">
+            <audio id="voice-audio" preload="metadata" src="/obrigado/audiobook.mp3"></audio>
+            <div class="voice-row">
+              <button class="voice-play" id="voice-play" type="button" aria-label="Reproduzir audiobook" aria-controls="voice-audio">
+                <svg id="voice-play-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 4v16l14-8z"/></svg>
+                <svg id="voice-pause-icon" viewBox="0 0 24 24" aria-hidden="true" hidden><path d="M6 4h4v16H6zm8 0h4v16h-4z"/></svg>
+              </button>
+              <div class="voice-track">
+                <div class="voice-wave" id="voice-wave">
+                  <div class="voice-bars" id="voice-bars" aria-hidden="true"></div>
+                  <input id="voice-seek" type="range" min="0" max="100" value="0" step="0.1" aria-label="Posição do áudio" aria-valuetext="0:00" disabled>
+                </div>
+                <div class="voice-time"><span id="voice-current">0:00</span><span id="voice-duration" aria-label="Duração total">--:--</span></div>
+              </div>
+              <button class="voice-speed" id="voice-speed" type="button" aria-label="Velocidade de reprodução: 1 vez">1×</button>
+            </div>
+            <p class="voice-status" id="voice-status" role="status">Toque para ouvir</p>
+            <noscript><audio controls preload="metadata" src="/obrigado/audiobook.mp3">Ative o JavaScript para usar o player.</audio></noscript>
+          </div>
+        </div>
+      </article>
+      <article class="product">
+        <div class="banner"><span class="banner-fallback" aria-hidden="true">Brinquedos Bíblicos<br>de Papel</span><img data-imagem="brinquedos" alt="Banner Brinquedos Bíblicos de Papel" width="1080" height="1080" loading="lazy"></div>
+        <div class="product-info"><h2>Brinquedos Bíblicos de Papel</h2><a class="access" data-acesso="brinquedos" href="#">Acessar os brinquedos <span aria-hidden="true">→</span></a></div>
+      </article>
+    </section>
+    <section class="refund" aria-labelledby="refund-heading"><h2 id="refund-heading">Não ficou satisfeito(a)?</h2><button class="secondary" id="open-refund" type="button">Solicitar Reembolso</button></section>
+    <noscript><p>Ative o JavaScript do navegador para acessar os materiais e solicitar reembolso.</p></noscript>
+  </main>
+  <footer class="wrap">Série Com Jesus · Feito para aprender e crescer na fé.</footer>
+
+  <dialog id="refund-dialog" aria-labelledby="dialog-title">
+    <div class="dialog-top"><h2 id="dialog-title">Solicitar reembolso</h2><button class="close" type="button" data-close aria-label="Fechar formulário">×</button></div>
+    <form id="refund-form">
+      <p class="form-intro">Preencha os dados da compra para confirmar sua solicitação.</p>
+      <input type="hidden" name="produto" value="Série Com Jesus - 11 Livros Digitais">
+      <input type="hidden" name="_subject" value="Solicitação de reembolso — Série Com Jesus">
+      <label for="name">Nome completo</label><input id="name" name="nome" autocomplete="name" required maxlength="150">
+      <label for="email">E-mail usado na compra</label><input id="email" name="email" type="email" autocomplete="email" required maxlength="254">
+      <label for="order">Número do pedido <span>(opcional)</span></label><input id="order" name="pedido" maxlength="100">
+      <label for="reason">Motivo do reembolso <span>(opcional)</span></label><textarea id="reason" name="motivo" maxlength="2000" rows="3"></textarea>
+      <button class="access send" id="send-refund" type="submit">Confirmar solicitação</button>
+      <p class="privacy">Confira os dados antes de confirmar sua solicitação.</p>
+    </form>
+    <div class="refund-loading" id="refund-loading" role="status" tabindex="-1" hidden>
+      <span class="spinner" aria-hidden="true"></span><p>Confirmando sua solicitação…</p>
+    </div>
+    <div class="success" id="refund-success" role="status" tabindex="-1" hidden>
+      <div class="check" aria-hidden="true">✓</div><h3>Solicitação confirmada!</h3><p>Seu reembolso será processado em até <strong>7 dias</strong>.</p><button class="access" data-close type="button">Entendi</button>
+    </div>
+  </dialog>
+  <dialog id="access-dialog" aria-labelledby="access-title">
+    <div class="dialog-top"><h2 id="access-title">Acesso ao material</h2><button class="close" data-close type="button" aria-label="Fechar aviso">×</button></div>
+    <p class="notice-text">O acesso a este material ainda não está disponível nesta página. Consulte as instruções recebidas na compra.</p><button class="access" data-close type="button">Entendi</button>
+  </dialog>
+  <script>
+    document.querySelectorAll('[data-imagem]').forEach(img => {
+      img.addEventListener('error', () => { img.hidden = true; });
+      img.src = CONFIG.imagens[img.dataset.imagem];
+    });
+
+    const accessDialog = document.getElementById('access-dialog');
+    document.querySelectorAll('[data-acesso]').forEach(link => {
+      const destination = CONFIG.acessos[link.dataset.acesso].trim();
+      if (destination) {
+        link.href = destination;
+      } else {
+        link.addEventListener('click', event => {
+          event.preventDefault();
+          accessDialog.showModal();
+        });
+      }
+    });
+
+    const refundDialog = document.getElementById('refund-dialog');
+    const form = document.getElementById('refund-form');
+    const successBox = document.getElementById('refund-success');
+    document.getElementById('open-refund').addEventListener('click', () => {
+      refundDialog.showModal();
+      if (!form.hidden) document.getElementById('name').focus();
+    });
+    document.querySelectorAll('[data-close]').forEach(button => {
+      button.addEventListener('click', () => button.closest('dialog').close());
+    });
+
+    const loadingBox = document.getElementById('refund-loading');
+    const sendButton = document.getElementById('send-refund');
+    let confirmationTimer = null;
+
+    // Fechar durante o loading cancela a transição; não reabre o popup sozinho.
+    refundDialog.addEventListener('close', () => {
+      if (confirmationTimer === null) return;
+      clearTimeout(confirmationTimer);
+      confirmationTimer = null;
+      loadingBox.hidden = true;
+      form.hidden = false;
+      sendButton.disabled = false;
+      document.getElementById('dialog-title').textContent = 'Solicitar reembolso';
+    });
+
+    // Animação e confirmação locais: não realiza envio, armazenamento ou pagamento.
+    form.addEventListener('submit', event => {
+      event.preventDefault();
+      if (confirmationTimer !== null || form.hidden || !form.reportValidity()) return;
+      sendButton.disabled = true;
+      form.hidden = true;
+      loadingBox.hidden = false;
+      document.getElementById('dialog-title').textContent = 'Aguarde um instante';
+      loadingBox.focus();
+      confirmationTimer = setTimeout(() => {
+        confirmationTimer = null;
+        loadingBox.hidden = true;
+        sendButton.disabled = false;
+        form.reset();
+        successBox.hidden = false;
+        document.getElementById('dialog-title').textContent = 'Solicitação confirmada';
+        successBox.focus();
+      }, 1800);
+    });
+  </script>
+
+  <script>
+    (() => {
+      const audio = document.getElementById('voice-audio');
+      const play = document.getElementById('voice-play');
+      const seek = document.getElementById('voice-seek');
+      const speed = document.getElementById('voice-speed');
+      const status = document.getElementById('voice-status');
+      const wave = document.getElementById('voice-wave');
+      const bars = document.getElementById('voice-bars');
+      const playIcon = document.getElementById('voice-play-icon');
+      const pauseIcon = document.getElementById('voice-pause-icon');
+      const current = document.getElementById('voice-current');
+      const duration = document.getElementById('voice-duration');
+      // Barras estilizadas; o preenchimento acompanha a posição real do áudio.
+      const heights = [18,28,13,36,23,40,19,30,15,25,38,21,32,12,26,40,31,17,35,24,14,29,38,20,33,16,25,40,18,30,23,36,13,28,20,34,17,39,25,14,31,22,36,18,29,13,24,34];
+      heights.forEach(height => {
+        const bar = document.createElement('span');
+        bar.style.height = height + 'px';
+        bars.appendChild(bar);
+      });
+      const format = seconds => {
+        if (!Number.isFinite(seconds)) return '--:--';
+        const total = Math.max(0, Math.floor(seconds));
+        const hours = Math.floor(total / 3600);
+        const minutes = Math.floor(total / 60) % 60;
+        return (hours ? hours + ':' + String(minutes).padStart(2,'0') : String(minutes)) + ':' + String(total % 60).padStart(2,'0');
+      };
+      const sync = () => {
+        const available = Number.isFinite(audio.duration) && audio.duration > 0;
+        const progress = available ? Math.min(100, audio.currentTime / audio.duration * 100) : 0;
+        seek.disabled = !available;
+        seek.value = progress;
+        seek.setAttribute('aria-valuetext', format(audio.currentTime) + ' de ' + format(audio.duration));
+        current.textContent = format(audio.currentTime);
+        duration.textContent = format(audio.duration);
+        wave.style.setProperty('--progress', progress + '%');
+        Array.from(bars.children).forEach((bar, index) => bar.classList.toggle('played', index / heights.length * 100 < progress));
+      };
+      const setPlaying = active => {
+        playIcon.hidden = active;
+        pauseIcon.hidden = !active;
+        play.setAttribute('aria-label', active ? 'Pausar audiobook' : 'Reproduzir audiobook');
+      };
+      const showError = () => {
+        play.disabled = false;
+        setPlaying(false);
+        status.textContent = 'Não foi possível reproduzir o áudio. Toque em play para tentar novamente.';
+      };
+      play.addEventListener('click', async () => {
+        if (!audio.paused) { audio.pause(); return; }
+        play.disabled = true;
+        status.textContent = 'Carregando áudio…';
+        try {
+          if (audio.error) audio.load();
+          if (audio.ended) audio.currentTime = 0;
+          await audio.play();
+        } catch { showError(); }
+        finally { play.disabled = false; }
+      });
+      audio.addEventListener('playing', () => { setPlaying(true); status.textContent = 'Reproduzindo'; });
+      audio.addEventListener('pause', () => { setPlaying(false); status.textContent = audio.ended ? 'Áudio concluído' : 'Pausado'; });
+      audio.addEventListener('ended', () => { setPlaying(false); status.textContent = 'Áudio concluído'; sync(); });
+      audio.addEventListener('waiting', () => { status.textContent = 'Carregando áudio…'; });
+      audio.addEventListener('error', showError);
+      ['loadedmetadata','durationchange','timeupdate'].forEach(event => audio.addEventListener(event, sync));
+      seek.addEventListener('input', () => {
+        if (Number.isFinite(audio.duration) && audio.duration > 0) {
+          audio.currentTime = Number(seek.value) / 100 * audio.duration;
+          sync();
+        }
+      });
+      speed.addEventListener('click', () => {
+        const rates = [1, 1.5, 2];
+        audio.playbackRate = rates[(rates.indexOf(audio.playbackRate) + 1) % rates.length];
+        speed.textContent = String(audio.playbackRate).replace('.', ',') + '×';
+        speed.setAttribute('aria-label', 'Velocidade de reprodução: ' + audio.playbackRate + ' vezes');
+      });
+      sync();
+    })();
+  </script>
+</body>
+</html>
+
